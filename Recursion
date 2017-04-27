@@ -1,0 +1,22 @@
+//Write a factorial function that takes a positive integer,  as a parameter and prints the result of its  factorial.
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int factorial(int m);
+int main(){
+    int n,r,f;
+    cin>>n;
+    r=factorial(n);
+    cout<<r;
+    return 0;
+}
+int factorial(int m){
+    if(m<=0)
+    {return 1;}
+    else{
+        return m*factorial(m-1);
+    }
+}
