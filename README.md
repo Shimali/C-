@@ -1,2 +1,1 @@
-# C-
-Few  concepts out of  my syllabus.
+HackerRank-30  Day of code.
